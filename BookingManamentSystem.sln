@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35825.156 d17.13
+VisualStudioVersion = 17.13.35825.156
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookingManamentSystem.Domain", "BookingManamentSystem.Domain\BookingManamentSystem.Domain.csproj", "{1952058F-4EA9-4D2D-8805-F613FD7EBE9E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{8758CBB0-53A0-44BB-9685-7566A887535F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookingManagementSystem.Application", "BookingManagementSystem.Application\BookingManagementSystem.Application.csproj", "{EFAE18C0-05EE-479C-A753-631B3DF93944}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,12 +21,17 @@ Global
 		{1952058F-4EA9-4D2D-8805-F613FD7EBE9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1952058F-4EA9-4D2D-8805-F613FD7EBE9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1952058F-4EA9-4D2D-8805-F613FD7EBE9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFAE18C0-05EE-479C-A753-631B3DF93944}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFAE18C0-05EE-479C-A753-631B3DF93944}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFAE18C0-05EE-479C-A753-631B3DF93944}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFAE18C0-05EE-479C-A753-631B3DF93944}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{1952058F-4EA9-4D2D-8805-F613FD7EBE9E} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{EFAE18C0-05EE-479C-A753-631B3DF93944} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AC27B04C-41D2-443F-BD12-97D83D3938A7}
